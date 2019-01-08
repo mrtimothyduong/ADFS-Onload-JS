@@ -8,6 +8,9 @@ The following code is for automation of Claim Provider selection during Home Rea
 ## Instructions
 Add the code to your onload.js including the description slashes to assist with identifying your code in future
 
+## Caveats
+Onload.js HRD code is only for device context and does not have granular support for administrators looking at multi-domain, multi-device type for ADFS deployments with additional Claims Providers.
+
 #### Automatically select Active Directory for Desktop Devices but still display Claims Provider selection for Mobile Devices
 ```
 // Automatically select Active Directory for Desktop Devices
