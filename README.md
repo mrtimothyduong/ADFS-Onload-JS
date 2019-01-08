@@ -17,7 +17,6 @@ if (navigator.userAgent.match(/Windows NT|Macintosh|Linux/i) != null) { HRD.sele
 // Automatically select Additional Claims Provider for Mobile Devices
 
 if (navigator.userAgent.match(/iPad|iPhone|Android|Windows Phone/i) != null) { HRD.selection('https://claimsprovider.com/replacethisurl.xml')};
-
 ```
 
 ### Automatically select Additional Claims Provider for Mobile Devices and Active Directory for Desktop Devices
