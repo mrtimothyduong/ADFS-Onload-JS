@@ -11,6 +11,8 @@ Add the code to your onload.js including the description slashes to assist with 
 ## Caveats
 Onload.js HRD code is only for device context and does not have granular support for administrators looking at multi-domain, multi-device type for ADFS deployments with additional Claims Providers.
 
+## JavaScript Code
+
 #### Automatically select Active Directory for Desktop Devices but still display Claims Provider selection for Mobile Devices
 ```
 // Automatically select Active Directory for Desktop Devices
