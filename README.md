@@ -8,14 +8,14 @@ The following code is for automation of Claim Provider selection during Home Rea
 ## Instructions
 Add the code to your onload.js including the description slashes to assist with identifying your code in future
 
-### Automatically select Active Directory for Desktop Devices but still display Claims Provider selection for Mobile Devices
+#### Automatically select Active Directory for Desktop Devices but still display Claims Provider selection for Mobile Devices
 ```
 // Automatically select Active Directory for Desktop Devices
 
 if (navigator.userAgent.match(/Windows NT|Macintosh|Linux/i) != null) { HRD.selection('AD Authority')};
 ```
 
-### Automatically select Additional Claims Provider for Mobile Devices but still display Claims Provider selection for Desktop Devices
+#### Automatically select Additional Claims Provider for Mobile Devices but still display Claims Provider selection for Desktop Devices
 
 ```
 // Automatically select Additional Claims Provider for Mobile Devices
@@ -23,7 +23,7 @@ if (navigator.userAgent.match(/Windows NT|Macintosh|Linux/i) != null) { HRD.sele
 if (navigator.userAgent.match(/iPad|iPhone|Android|Windows Phone/i) != null) { HRD.selection('https://claimsprovider.com/replacethisurl.xml')};
 ```
 
-### Automatically select 3rd Party Claims Provider for Mobile Devices and Active Directory for Desktop Devices
+#### Automatically select 3rd Party Claims Provider for Mobile Devices and Active Directory for Desktop Devices
 
 ```
 // Automatically select Additional Claims Provider for Mobile Devices and Active Directory for Desktop Devices
